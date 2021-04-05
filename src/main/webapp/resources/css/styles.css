@@ -1,0 +1,84 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* Style inputs, select elements and textareas */
+input[type=text],input[type=password],input[type=email], input[type=number],input[type=date], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+  margin-bottom	: 10px;!important;
+}
+
+input[type=checkbox]{
+  width: 10%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+.btn-primary{
+	
+    margin: 0px 0px 12px 0px;!important;
+}
+
+.btn-secondary{
+	
+    margin: 0px 0px 6px 0px;!important;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+    background-color:#343a40;
+}
+	
+/* Login container */
+.login-container {
+    background-color: #eee;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+	padding: 30px;
+	min-width :300px;
+	max-width :500px;
+}
+
+.odd {
+   border: 1px solid #ccc;
+    border-radius: .25em;
+    overflow: hidden;
+    padding: 1.25em 1.875em;
+}
+
+.even {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: .25em;
+    overflow: hidden;
+    padding: 1.25em 1.875em;
+}
+
+.label {
+	text-transform: uppercase;
+}
+
+.leftcolumn { 
+  float: left;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  padding-left: 50px;
+}
+
